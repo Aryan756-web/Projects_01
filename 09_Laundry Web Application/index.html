@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Service Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</head>
+
+<body>
+    <nav class="navbar" id="home">
+        <div class="logo"><img src="images/logo2.png" ></div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="username">
+            <button>Username</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="left">
+            <h1>Revitalize Your <br>
+            Clothes with Expert <br>
+            <span>Laundry Services!</span></h1>
+
+            <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!</p>
+
+            <button class="cta-btn">🪣 Book a service today!</button>
+        </div>
+        
+        <div class="right">
+            <img src="images/m3.png" alt="Laundry Machine">
+        </div>
+    </div>
+
+    <div class="achievements">
+        <div class="title">Our Achievements</div>
+
+        <div class="items">
+            <div>
+                <strong>15+</strong>
+                <span>Laundry Services</span>
+            </div>
+            <div>
+                <strong>1200+</strong>
+                <span>Happy Customers</span>
+            </div>
+            <div>
+                <strong>3+ Years</strong>
+                <span>Experience</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="services-section" id="services">
+
+        <div class="services-box">
+            <h3>Our Services</h3>
+            <p class="hint">Click On The Add to Cart Button To Add The Services To Your Cart</p>
+
+            <ul class="services-list">
+                <li>
+                    <span>🧼 Dry Cleaning</span>
+                    <span class="price">₹200.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item </button>
+                    
+                </li>
+                <li>
+                    <span>👕Wash & Fold</span>
+                    <span class="price">₹100.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+                <li>
+                    <span>🧺 Ironing</span>
+                    <span class="price">₹30.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+                <li>
+                    <span>🧴 Stain Removal</span>
+                    <span class="price">₹500.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+                <li>
+                    <span>🧼 Dry Cleaning</span>
+                    <span class="price">₹200.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+                <li>
+                    <span>🧥 Leather & Suede Cleaning</span>
+                    <span class="price">₹999.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+                <li>
+                    <span>👗 Wedding Dress cleaning</span>
+                    <span class="price">₹2800.00</span>
+                    <button class="add"><i class="fa-solid fa-circle-plus"></i>Add Item</button>
+                </li>
+            </ul>
+
+            <p class="cart-link"><i class="fa-solid fa-circle-exclamation"></i>
+                Add the items to the cart and book now
+            </p>
+        </div>
+
+        <div class="cart-box">
+            <h4>Added Items</h4>
+
+            <div class="cart-items">
+                
+            </div>
+
+            <div class="empty-cart">
+                <p>No Item Added</p>
+                <span>Add items to the cart from the services bar</span>
+            </div>
+
+            <div class="total">
+                <span>Total Amount</span>
+                <strong>₹ 0</strong>
+            </div>
+
+            <h4>Book Now</h4>
+
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email ID">
+            <input type="text" placeholder="Phone Number">
+
+            <div class="book-btn"><button>Book Now</button></div>
+
+            <p class="warning"><i class="fa-solid fa-circle-exclamation"></i> Add the items to the cart to book</p>
+        </div>
+    </section>
+
+    <section class="features-section" id="about">
+        <div class="feature">
+            <div class="icon">
+                <img src="images/premiumServices.png">
+                <h4>Premium Services</h4>
+                <p>Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look and feel as good as new.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <img src="images/quicksupport.png">
+                <h4>Quick Support</h4>
+                <p>We're committed to providing prompt solutions to ensure your experience is smooth and worry-free.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <img src="images/freedelivery.png">
+                <h4>Hassle Free Delivery</h4>
+                <p>Enjoy seamless service with our convenient pickup and delivery options, tailored to your schedule.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="icon">
+                <img src="images/affordableprices.png">
+                <h4>Affordable Prices</h4>
+                <p>Experience exceptional care without breaking the bank - our affordable prices make laundry day stress-free.</p>
+            </div>
+        </div> 
+    </section>
+
+    <section class="newsletter-section">
+        <h2>Subscribe to out <br>newsletter.</h2>
+
+        <div class="newsletter-form">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <button>Subscribe</button>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-col">
+            <img src="images/logo2.png" alt="">
+            <p>About Us</p>
+            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, numquam.</small>
+        </div>
+        <div class="footer-col">
+            <h4>Important Links</h4>
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>Privacy Policy</p>
+            <p>Terms of use</p>
+            <p>Refund Policy</p>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <p>mail@site.com</p>
+            <p>+91 91234 56780</p>
+        </div>
+        <div class="footer-col">
+            <h4>Follow Us</h4>
+            <div class="socials">
+                <span>📷</span>
+                <span>📘</span>
+                <span>🐦</span>
+                <span>▶️</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+     <div class="login-modal" id="loginModal">
+        <div class="login-box">
+            <h3>Login</h3>
+
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+
+            <button id="loginBtn">Login</button>
+
+            <div class="divider">OR</div>
+
+            <!-- Google sign in renders here -->
+             <div id="googleSignIn"></div>
+
+             <p class="close-login" id="closeLogin">✖</p>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
